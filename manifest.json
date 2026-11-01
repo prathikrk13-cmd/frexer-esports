@@ -1,0 +1,10 @@
+{
+  "name": "FREXER ESPORTS",
+  "short_name": "FREXER",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "description": "FREXER ESPORTS Free Fire organisation hub",
+  "icons": []
+}
