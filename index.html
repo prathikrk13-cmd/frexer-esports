@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="FREXER ESPORTS - Free Fire esports organisation hub">
+  <title>FREXER ESPORTS</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="FREXER ESPORTS home">
+      <div class="brand-mark">F</div>
+      <div><strong>FREXER</strong><span>ESPORTS</span></div>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#teams">Teams</a><a href="#tournaments">Tournaments</a>
+      <a href="#lobbies">Lobbies</a><a href="#results">Results</a><a href="#leaderboard">Leaderboard</a>
+      <a href="#socials">Socials</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">FREE FIRE • ESPORTS ORGANISATION</p>
+        <h1>PLAY WITH<br><em>PURPOSE.</em></h1>
+        <p class="hero-text">Welcome to FREXER ESPORTS. Follow our teams, tournaments, lobby updates and match results in one place.</p>
+        <div class="hero-actions"><a class="btn yellow" href="#tournaments">Explore tournaments</a><a class="btn outline" href="#teams">View teams</a></div>
+      </div>
+      <div class="hero-panel">
+        <div class="panel-tag">OFFICIAL HUB</div>
+        <div class="big-f">F</div>
+        <p>FREXER <b>ESPORTS</b></p>
+        <span>BLACK / WHITE / YELLOW</span>
+      </div>
+    </section>
+
+    <section class="notice-strip">
+      <span class="live-dot"></span><b>ORGANISATION UPDATES</b>
+      <span>Official announcements and match updates will appear here.</span>
+    </section>
+
+    <section class="section" id="teams">
+      <div class="section-head"><div><p class="eyebrow">OUR ORGANISATION</p><h2>TEAMS & PLAYERS</h2></div><span class="section-no">01</span></div>
+      <div class="empty-card"><div class="empty-icon">♜</div><h3>Team roster coming soon</h3><p>Team names, player profiles, roles and in-game IDs will be displayed here.</p></div>
+    </section>
+
+    <section class="section dark-section" id="tournaments">
+      <div class="section-head"><div><p class="eyebrow">COMPETE</p><h2>TOURNAMENTS</h2></div><span class="section-no">02</span></div>
+      <div class="grid-two">
+        <article class="feature-card"><span class="card-label">UPCOMING</span><h3>Upcoming tournaments</h3><p>Schedules, formats, maps and tournament announcements.</p></article>
+        <article class="feature-card"><span class="card-label">ARCHIVE</span><h3>Past tournaments</h3><p>Previous events and final standings.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="lobbies">
+      <div class="section-head"><div><p class="eyebrow">MATCH OPERATIONS</p><h2>LOBBY UPDATES</h2></div><span class="section-no">03</span></div>
+      <div class="grid-two">
+        <article class="simple-card"><div class="card-symbol">◈</div><h3>Paid lobbies</h3><p>Lobby timings, entry details and match information.</p></article>
+        <article class="simple-card"><div class="card-symbol">◇</div><h3>Practice lobbies</h3><p>Practice schedules and team preparation updates.</p></article>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="results">
+      <div class="section-head"><div><p class="eyebrow">PERFORMANCE</p><h2>MATCH RESULTS</h2></div><span class="section-no">04</span></div>
+      <div class="empty-card dark-empty"><div class="empty-icon">▤</div><h3>No results published yet</h3><p>Match placements, kills and total points will be listed here.</p></div>
+    </section>
+
+    <section class="section" id="leaderboard">
+      <div class="section-head"><div><p class="eyebrow">THE NUMBERS</p><h2>LEADERBOARD</h2></div><span class="section-no">05</span></div>
+      <div class="leaderboard">
+        <div class="leader-row leader-head"><span>RANK</span><span>PLAYER</span><span>POINTS</span></div>
+        <div class="leader-row"><span>—</span><span>Leaderboard will be updated</span><span>—</span></div>
+      </div>
+    </section>
+
+    <section class="section social-section" id="socials">
+      <div class="section-head"><div><p class="eyebrow">STAY CONNECTED</p><h2>SOCIAL HUB</h2></div><span class="section-no">06</span></div>
+      <p class="social-intro">Our official social links will be added here.</p>
+      <div class="social-links"><span>INSTAGRAM</span><span>YOUTUBE</span><span>WHATSAPP</span><span>DISCORD</span><span>FACEBOOK</span></div>
+    </section>
+
+    <section class="section admin-section" id="admin">
+      <p class="eyebrow">MANAGEMENT</p><h2>ADMIN DASHBOARD</h2>
+      <p>This section is a design placeholder. Secure admin sign-in and editing tools will be connected when the backend is set up.</p>
+      <span class="admin-status">SETUP NOT CONNECTED</span>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><div class="brand-mark">F</div><div><strong>FREXER</strong><span>ESPORTS</span></div></a><p>© <span id="year"></span> FREXER ESPORTS. All rights reserved.</p><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>
