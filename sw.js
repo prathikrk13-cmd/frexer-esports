@@ -1,3 +1,4 @@
+self.skipWaiting();
 const CACHE = 'frexer-static-v1';
 
 const FILES = [
